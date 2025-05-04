@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: auto;
+}
+nav > a{
+    padding-left: 15px;
+    padding-right: 0px;
+    color: rgb(91, 183, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+nav {
+    padding: 0;
+}
+nav > a:hover {
+    background-color: rgba(104, 201, 40, 0.463);
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p{
+    color: white;
+}
+main > h1 {
+    text-align: center;
+    color: rgb(150, 237, 10);
+    font-size: 40px;
+}
+.p1{
+    color: black;
+}
+.cima{
+    background: linear-gradient(to top, rgb(39, 39, 39), rgb(38, 190, 24));
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-width: 300px;
+}
+.h12{
+    background: linear-gradient(to right, rgba(138, 182, 50, 0.529), rgba(255, 255, 255, 0.505));
+}
+main{
+    margin: 10px;
+}
+.img4droides{
+    max-width: 400px;
+}
+.imgnovo{
+    padding: 20px 0px 0px 10px;
+}

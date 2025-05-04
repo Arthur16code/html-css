@@ -1,0 +1,106 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cima {
+    background-color: rgb(49, 163, 216);
+    text-align: center;
+}
+
+.cima > h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.cima > p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+.nav > a:hover {
+    background-color: rgba(0, 255, 255, 0.300);
+    border-radius: 10px;
+}
+
+nav {
+    background-color: rgb(0, 137, 200);
+    border-radius: 10px;
+}
+
+article {
+    box-shadow: rgba(0, 0, 0, 0.371) 20px 8px 35px 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 800px; /* Limita a largura em telas maiores */
+}
+
+article > h1 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    font-size: 0.9rem; /* Tamanho da fonte menor */
+}
+
+footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
+
+footer a {
+    color: #00bcd4; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 5px; /* Espaçamento entre os links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    color: #ff9800; /* Cor ao passar o mouse */
+}
+
+/* Responsividade para celulares */
+@media (max-width: 768px) {
+    .cima > h1 {
+        font-size: 24px; /* Reduz o tamanho do título */
+    }
+
+    .cima > p {
+        font-size: 16px; /* Reduz o tamanho do texto */
+    }
+
+    .nav > a {
+        display: block; /* Links em linha vertical */
+        margin: 10px 0; /* Espaçamento entre os links */
+    }
+
+    article {
+        max-width: 100%; /* Ocupa toda a largura da tela */
+        margin: 10px; /* Margem menor */
+        padding: 15px; /* Ajusta o espaçamento interno */
+    }
+
+    footer {
+        font-size: 0.8rem; /* Reduz o tamanho do texto no rodapé */
+        padding: 15px; /* Ajusta o espaçamento interno */
+    }
+
+    footer a {
+        display: block; /* Links em linha vertical */
+        margin: 5px 0; /* Espaçamento entre os links */
+    }
+}

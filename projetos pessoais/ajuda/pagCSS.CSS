@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to left, rgb(149, 142, 226), #4380b5);
+    margin: 25px;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+hr{
+    border: none;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    margin: 20px 0;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba (0, 0, 0, 0.4);
+    transition: background-color 0.4 ease;
+}
+a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+main {
+    background-color: #85bcfa;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgb(30, 29, 29);
+    padding: 5px;
+    margin: auto;
+    width: 600px;
+    height: 256px;
+
+}
+h2 {
+    text-align: center ;
+    height: 25px;
+    margin: 1px;
+}
+.jeitoscor{
+    width: 500px;
+    height: 170px;
+}
+.voltarcores{
+    height: 210px;
+}
+.curosidades{
+    height: 230px;
+}
+.texto3{
+    color: black;
+    text-align: center;
+}
+a:hover {
+    color: #298de5;
+}
+button {
+    background-color: #85bcfa;
+    border-radius: 10px;
+    margin: 1px;
+}
+button:hover {
+    background-color: lightskyblue;
+}
